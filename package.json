@@ -5,5 +5,13 @@
 	"workspaces": ["packages/*"],
 	"engines": {
 		"node": ">=22.18.0"
+	},
+	"scripts": {
+		"test": "npm test --workspaces --if-present",
+		"check": "tsc -p packages/core/tsconfig.json"
+	},
+	"devDependencies": {
+		"@types/node": "^26.6.6",
+		"typescript": "^6.0.3"
 	}
 }
