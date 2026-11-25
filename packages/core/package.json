@@ -1,0 +1,7 @@
+{
+	"name": "@mercurypress/core",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Mercury's independent domain and publishing pipeline."
+}

@@ -1,0 +1,7 @@
+{
+	"name": "@mercurypress/create",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Script for creating a Mercury starter site."
+}

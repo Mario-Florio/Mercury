@@ -1,0 +1,9 @@
+{
+	"name": "mercury-monorepo",
+	"private": true,
+	"type": "module",
+	"workspaces": ["packages/*"],
+	"engines": {
+		"node": ">=22.18.0"
+	}
+}

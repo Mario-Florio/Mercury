@@ -1,0 +1,7 @@
+{
+	"name": "@mercurypress/astro",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Mercury's Astro adapter integration."
+}
