@@ -3,9 +3,9 @@ A static site framework for reducing the friction associated with publishing int
 
 ## Packages
 
-| Folder | Package | Responsibility |
-| --- | --- | --- |
-| `packages/core` | `@mercurypress/core` | Mercury's independent domain and publishing pipeline. |
-| `packages/astro` | `@mercurypress/astro` | Mercury's Astro adapter integration. |
-| `packages/create` | `@mercurypress/create` | Script for creating a Mercury starter site. |
+| Folder | Package | Responsibility | License |
+| --- | --- | --- | --- |
+| `packages/core` | `@mercurypress/core` | Mercury's independent domain and publishing pipeline. | GPL-3.0-or-later |
+| `packages/astro` | `@mercurypress/astro` | Mercury's Astro adapter integration. | MIT |
+| `packages/create` | `@mercurypress/create` | Script for creating a Mercury starter site. | MIT |
 
