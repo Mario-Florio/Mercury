@@ -33,3 +33,7 @@ npm run format
 
 > **Disclaimer:** All commands should be executed from respository root.
 
+## Docs
+
+* [**Overview**](docs/overview/overview.md) — Mercury's high-level design choices.
+

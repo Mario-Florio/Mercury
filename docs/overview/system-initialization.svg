@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 288" width="760" height="288" role="img" aria-labelledby="title desc">
+<title id="title">System Initialization</title>
+<desc id="desc">System Initialization takes static content, collections, links, and dynamic features, and produces the Site Model.</desc>
+<style>
+	.bg { fill: #ffffff; }
+	text { fill: #1f2328; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; }
+	.small { font-size: 12px; fill: #59636e; }
+	.label { font-weight: 600; }
+	.input { fill: #f6f8fa; stroke: #59636e; }
+	.stage { fill: #ddf4ff; stroke: #0969da; stroke-width: 1.5; }
+	.artifact { fill: #fff8c5; stroke: #9a6700; }
+	.external { fill: #f6f8fa; stroke: #59636e; stroke-dasharray: 5 4; stroke-width: 1.5; }
+	.line { stroke: #59636e; stroke-width: 1.5; fill: none; }
+	.head { fill: #59636e; }
+	.parent { fill: #ddf4ff; stroke: #0969da; }
+	.text { fill: #dafbe1; stroke: #1a7f37; }
+	.asset { fill: #fff8c5; stroke: #9a6700; }
+	@media (prefers-color-scheme: dark) {
+		.bg { fill: #0d1117; }
+		text { fill: #e6edf3; }
+		.small { fill: #9198a1; }
+		.input, .external { fill: #161b22; stroke: #9198a1; }
+		.stage, .parent { fill: #0c2d6b; stroke: #4493f8; }
+		.artifact, .asset { fill: #3b2e00; stroke: #d29922; }
+		.text { fill: #04260f; stroke: #3fb950; }
+		.line { stroke: #9198a1; }
+		.head { fill: #9198a1; }
+	}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<rect class="bg" width="760" height="288" rx="8"/>
+<rect class="input" x="24" y="24" width="200" height="44" rx="6"/>
+<text x="124" y="51" text-anchor="middle" class="label">Static content</text>
+<path class="line" d="M224,46 C244,46 244,130 264,130"/>
+<rect class="input" x="24" y="80" width="200" height="44" rx="6"/>
+<text x="124" y="107" text-anchor="middle" class="label">Collections</text>
+<path class="line" d="M224,102 C244,102 244,130 264,130"/>
+<rect class="input" x="24" y="136" width="200" height="44" rx="6"/>
+<text x="124" y="163" text-anchor="middle" class="label">Links</text>
+<path class="line" d="M224,158 C244,158 244,130 264,130"/>
+<rect class="input" x="24" y="192" width="200" height="44" rx="6"/>
+<text x="124" y="219" text-anchor="middle" class="label">Dynamic Features</text>
+<path class="line" d="M224,214 C244,214 244,130 264,130"/>
+<path class="line" d="M264,130 L298,130" marker-end="url(#arrow)"/>
+<rect class="stage" x="300" y="98" width="200" height="64" rx="6"/>
+<text x="400" y="135" text-anchor="middle" class="label">System Initialization</text>
+<path class="line" d="M500,130 L574,130" marker-end="url(#arrow)"/>
+<rect class="artifact" x="576" y="108" width="160" height="44" rx="6"/>
+<text x="656" y="135" text-anchor="middle" class="label">Site Model</text>
+<rect class="input" x="24" y="262" width="14" height="14" rx="3"/>
+<text x="44" y="274" class="small">Input</text>
+<rect class="artifact" x="103" y="262" width="14" height="14" rx="3"/>
+<text x="123" y="274" class="small">Produced by a stage</text>
+<rect class="stage" x="280" y="262" width="14" height="14" rx="3"/>
+<text x="300" y="274" class="small">Stage</text>
+</svg>
