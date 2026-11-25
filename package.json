@@ -1,0 +1,19 @@
+{
+	"name": "mercury-monorepo",
+	"private": true,
+	"type": "module",
+	"workspaces": ["packages/*"],
+	"engines": {
+		"node": ">=22.18.0"
+	},
+	"scripts": {
+		"test": "npm test --workspaces --if-present",
+		"check": "tsc -p packages/core/tsconfig.json",
+		"format": "prettier --write \"packages/*/{src,tests}/**/*.{ts,js}\""
+	},
+	"devDependencies": {
+		"@types/node": "^26.6.6",
+		"typescript": "^6.0.3",
+		"prettier": "^3.10.1"
+	}
+}
