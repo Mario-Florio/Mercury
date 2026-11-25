@@ -11,7 +11,7 @@ A static site framework for reducing the friction associated with publishing int
 
 ## Development
 
-**Requirements:** Node <22.18.0 (direct TypeScript execution)
+**Requirements:** Node >=22.18.0 (direct TypeScript execution)
 
 Run tests:
 
