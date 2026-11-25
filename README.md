@@ -25,5 +25,11 @@ Check types:
 npm run check
 ```
 
+Format:
+
+```
+npm run format
+```
+
 > **Disclaimer:** All commands should be executed from respository root.
 
